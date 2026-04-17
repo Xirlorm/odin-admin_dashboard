@@ -161,7 +161,7 @@ button {
   color: rgba(0, 0, 0, 0.6);
   display: grid;
   grid-template-columns: 2.8fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   padding: 1.8rem;
   height: 94.8%;
 }
@@ -176,6 +176,12 @@ button {
 .main h3,
 .main h2 {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.announcements > h3,
+.trending > h3,
+.projects > h3 {
+  margin-bottom: .6rem;
 }
 
 hr {
@@ -200,9 +206,9 @@ hr {
 
 .projects > div {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 240px;
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1.4rem;
 }
 
 .project {
@@ -210,7 +216,7 @@ hr {
   padding: 1rem;
   border-radius: .4rem;
   border-left: 6px solid rgb(46, 213, 46);
-
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .project button {
