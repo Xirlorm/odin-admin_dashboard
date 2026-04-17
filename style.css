@@ -217,6 +217,7 @@ hr {
   border-radius: .4rem;
   border-left: 6px solid rgb(46, 213, 46);
   box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+  display: grid;
 }
 
 .project button {
@@ -226,6 +227,7 @@ hr {
 
 .project div {
   text-align: right;
+  align-self: self-end;
 }
 
 .trending .pfp {
